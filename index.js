@@ -7,6 +7,7 @@ if (process) {
 const { AbletonLive } = require("ableton-live");
 const ABLETON_CONNECT_OPTIONS = {
   host: "127.0.0.1",
+  port: 9001,
   logRequests: true,
 };
 const ABLETON_LIVE = new AbletonLive(ABLETON_CONNECT_OPTIONS);
@@ -27,7 +28,9 @@ const test = async () => {
     const tracks = await ABLETON_LIVE.song.children("tracks");
     // console.log(tracks);
   } catch (error) {
-    console.error(error);
+    console.error(
+      `\n\tUnable to connect to Ableton Live. Please double-check the port number and server you are connecting to.\n`
+    );
   }
 };
 test();
