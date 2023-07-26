@@ -2,9 +2,7 @@
 
 This project will explore working with [Node.js](https://nodejs.org/en) and [Ableton Live](https://www.ableton.com/en/live/) - inspired by the work at [https://ricardomatias.net/ableton-live/#md:ableton-live](https://ricardomatias.net/ableton-live/#md:ableton-live).
 
-![assets/drag-liveAPI-device-to-ableton-live.gif](assets/drag-liveAPI-device-to-ableton-live.gif)
-
-![assets/ableton-live-and-nodejs-websocket.gif](assets/ableton-live-and-nodejs-websocket.gif)
+![assets/demo-ableton-live-nodejs-websocket.gif](assets/demo-ableton-live-nodejs-websocket.gif)
 
 ## Getting started
 
