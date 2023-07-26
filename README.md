@@ -4,6 +4,8 @@ This project will explore working with [Node.js](https://nodejs.org/en) and [Abl
 
 ![assets/drag-liveAPI-device-to-ableton-live.gif](assets/drag-liveAPI-device-to-ableton-live.gif)
 
+![assets/ableton-live-and-nodejs-websocket.gif](assets/ableton-live-and-nodejs-websocket.gif)
+
 ## Getting started
 
 Requirements for this project include:
