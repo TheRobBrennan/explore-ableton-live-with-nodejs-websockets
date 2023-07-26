@@ -2,6 +2,8 @@
 
 This project will explore working with [Node.js](https://nodejs.org/en) and [Ableton Live](https://www.ableton.com/en/live/) - inspired by the work at [https://ricardomatias.net/ableton-live/#md:ableton-live](https://ricardomatias.net/ableton-live/#md:ableton-live).
 
+![assets/drag-liveAPI-device-to-ableton-live.gif](assets/drag-liveAPI-device-to-ableton-live.gif)
+
 ## Getting started
 
 Requirements for this project include:
@@ -17,10 +19,10 @@ Assuming you have the minimum requirements for this to run on your machine, all 
 - Install the packages using `npm i' or your preferred package manager
 - Drag and drop the `external/LiveAPI.amxd` Max for Live device to any track in an open Ableton Live project
 
-  - If you're on macOS, a helper script "open:device" has been created to make incorporating this Live device even more effortless.
+- If you're on macOS, a helper script "open:device" has been created to make incorporating this Live device even more effortless.
 
-  ```sh
-  % npm run open:device
-  ```
+```sh
+% npm run open:device
+```
 
 - Enjoy
