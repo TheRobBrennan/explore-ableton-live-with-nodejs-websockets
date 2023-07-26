@@ -20,5 +20,8 @@
   "homepage": "https://github.com/TheRobBrennan/explore-ableton-live-with-nodejs-websockets#readme",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "ableton-live": "^0.0.9"
   }
 }
