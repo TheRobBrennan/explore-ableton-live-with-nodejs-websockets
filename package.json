@@ -23,6 +23,7 @@
     "nodemon": "^3.0.1"
   },
   "dependencies": {
-    "ableton-live": "^0.0.9"
+    "ableton-live": "^0.0.9",
+    "ws": "^8.13.0"
   }
 }
