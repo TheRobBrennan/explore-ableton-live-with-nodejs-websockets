@@ -4,6 +4,7 @@
   "description": "This project will explore working with [Node.js](https://nodejs.org/en) and [Ableton Live](https://www.ableton.com/en/live/) - inspired by the work at [https://ricardomatias.net/ableton-live/#md:ableton-live](https://ricardomatias.net/ableton-live/#md:ableton-live).",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/TheRobBrennan/explore-ableton-live-with-nodejs-websockets/issues"
   },
-  "homepage": "https://github.com/TheRobBrennan/explore-ableton-live-with-nodejs-websockets#readme"
+  "homepage": "https://github.com/TheRobBrennan/explore-ableton-live-with-nodejs-websockets#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
