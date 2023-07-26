@@ -14,6 +14,7 @@ const ABLETON_LIVE = new AbletonLive(ABLETON_CONNECT_OPTIONS);
 const displayWelcomeMessage = () => {
   const { name, description, version } = require("./package.json");
   const WELCOME_MESSAGE = `Welcome to ${name} - v${version}\n\n${description}\n`;
+
   console.log(WELCOME_MESSAGE);
 };
 displayWelcomeMessage();
